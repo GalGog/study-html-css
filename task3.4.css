@@ -1,0 +1,26 @@
+
+a:first-child{
+    color: blue;
+    font-size: larger;
+}
+a[href="http://news.google.com"] {
+    color: #999999;
+    font-size: larger;
+;
+}
+a[href="http://maps.google.com"] {
+    color: #999999;
+    font-size: larger;
+}
+a[href="http://google.com"] {
+    color: #999999;
+    font-size: larger;
+}
+a[href="http://maps.yandex.ru" ] {
+    color: orange;
+    font-size: larger;
+}
+a[href="http://ya.ru"] {
+    color: orange;
+    font-size: larger;
+}
