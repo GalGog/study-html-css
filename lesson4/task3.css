@@ -1,0 +1,26 @@
+div.menu{
+    background-color: azure;
+    width: 800px;
+    padding: 10px;
+}
+nav.peidg{
+margin: 0 auto;
+    width: 800px;
+    padding: 10px;
+
+}
+nav.peidg a{
+   text-decoration: none;
+    color: darkviolet;
+    text-transform: uppercase;
+    padding: 10px 10px;
+
+}
+.numer{
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+nav.peidg a:hover{
+    background-color: darkviolet;
+    color: white;
+}

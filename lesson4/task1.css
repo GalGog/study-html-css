@@ -1,0 +1,21 @@
+div.menu{
+    background: #9932cc;
+
+}
+nav.link{
+    margin: 0 auto;
+    padding: 10px 250px;
+    text-align: center;
+}
+
+nav.link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+}
+nav.link a:hover{
+    background-color: #ccc;
+    color: #696969;
+
+}
