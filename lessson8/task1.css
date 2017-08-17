@@ -1,0 +1,49 @@
+
+div.block {
+    position: relative;
+    background: orange;
+    margin-top: 100px;
+    display: inline;
+    border: 27px solid orange;
+}
+
+.block [type="submit"]{
+    margin: 5px 5px 30px 5px;
+    height: 40px;
+    width: 100px;  }
+.block [type="text"]{
+    margin: 5px 0 30px 10px;
+    height: 35px;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+
+.block::after, .block::before {
+    content:'';
+    position: absolute;
+    left: 95%;
+    bottom: -10px;
+    margin-left: -10px;
+    background: #fff;
+    width: 80px;
+    height: 40px;
+    box-shadow: 1px 1px 0 #f00;
+    /* Добавляем тень для уголка*/
+    z-index: -1;
+    /* Прячем за основным блоком*/
+    transform: rotate{56px};
+    /* Поворачиваем на 45º*/
+    -webkit-transform: rotate(45deg);
+}
+.block::before {
+    z-index: 1;
+    /* Накладываем поверх, чтобы скрыть следы тени*/
+    box-shadow: none;
+    /* Прячем тень*/
+}
+.block1 {
+    border-bottom: 1px solid #00f;
+    position: relative;
+    background: #fff;
+}

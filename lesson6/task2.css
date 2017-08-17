@@ -35,6 +35,7 @@ span.orang{
     color: #ee8129;
 }
 div.client-uno,.client-doi{
+    overflow-y: scroll;
     background-color: #f7f7f7;
     height:100px ;
     width: 363px;
@@ -42,10 +43,7 @@ div.client-uno,.client-doi{
     vertical-align: middle;
     margin-bottom: 20px;
 }
-.client-uno{
-    position: relative;
-    vertical-align: middle;
-}
+
 
 .foto-girl{
   margin-bottom: 20px;
