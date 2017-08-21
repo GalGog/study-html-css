@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 
+section.content{
+    width: 1024px;
+    height: 706px;
+    border: 3px solid red;
+    position: relative;
+    margin: 0 auto;
+}
 section{
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
     text-align: center;
     line-height: 1;
     position: relative;
 }
+
 h2.section-title {
     padding: 40px 0;
     font-size: 30px;
@@ -24,7 +32,7 @@ div.wrapper, div.first-wrapper, div.third-wrapper {
     border-radius: 6px;
     background: white;
     margin-bottom: 30px;
-    margin-top: 80px;
+    margin-top: 40px;
 
 }
 div.wrapper{
@@ -49,7 +57,7 @@ div.heading, div.first-heading, div.third-heading{
 div.first-heading{background-color:#37c2d3;}
 div.third-heading{background-color:#1cb79a;}
 
-div.content, div.first-content, div.third-content{
+div.content-second-b, div.first-content, div.third-content{
     padding: 20px 15px 32px;
     text-align: center;
     color: #35495A;
@@ -78,10 +86,12 @@ ul.advantages, ul.first-advantages, ul.third-advantages{
     font-size: 15px;
     color: #888c94;
     margin-bottom: 20px;
+    position: relative;
 }
 ul.advantages li, ul.first-advantages li, ul.third-advantages li{
-    padding: 8px 35px 8px 60px;
-    margin-bottom: 1px;
+    display: block;
+    margin-left: -460px;
+    margin-right: 200px;
     position: relative;
     text-align: left;
 }
@@ -95,6 +105,7 @@ ul.advantages li:before, ul.first-advantages li:before, ul.third-advantages li:b
     position: absolute;
     margin-top: 2px;
     margin-left: -30px;
+
 }
 ul.advantages li:nth-child(2n), ul.first-advantages li:nth-child(2n), ul.third-advantages li:nth-child(2n) {
     background: #f5f5f6;

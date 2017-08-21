@@ -41,12 +41,12 @@ div ul li a:hover{
 div.wraper-first {
     position: relative;
     height:586px ;
-    background-image: url("bg-1.jpg");
+    background: url("bg-1.jpg") no-repeat;
 
 }
 div.wraper-first:before{
     content: '';
-    background-image: url("b-g.png");
+    background-color: rgba(0, 0, 0, .5);
     height: 586px;
     position:absolute;
     width:100%;
@@ -113,7 +113,7 @@ font-size: 30px;
 }
 div.wraper-fourth:before{
     content: '';
-    background-image: url("bg-2.png");
+    background-color: rgba(0, 0, 0, .5);
     height: 576px;
     position:absolute;
     width:100%;

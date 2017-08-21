@@ -1,11 +1,11 @@
-div.ground {
+div.wraper-sixth{
     width: auto;
     height:317px;
     background: url(bg-rd.jpg);
     z-index: -1;
     position: relative;
 }
-div.ground::before{
+div.wraper-sixth::before{
     content: '';
     background: url("bg2.png");
     position: absolute;
@@ -14,7 +14,9 @@ div.ground::before{
     z-index: 0;
     top:0;
 }
-
+div.ground{
+    height: 314px;
+}
 div.saze{
     width: 1021px;
     height: 317px;
