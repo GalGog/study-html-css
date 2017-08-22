@@ -42,6 +42,8 @@ div.wraper-first {
     position: relative;
     height:586px ;
     background: url("bg-1.jpg") no-repeat;
+    background-size: cover;
+
 
 }
 div.wraper-first:before{
@@ -109,6 +111,7 @@ font-size: 30px;
 .wraper-fourth{
     position: relative;
     background-image: url("bgg2.jpg");
+    background-size:cover ;
     height: 576px;
 }
 div.wraper-fourth:before{
@@ -148,4 +151,35 @@ div.wraper-fourth:before{
 }
 .wraper-fourth .content{
     height: 576px ;
+}
+div.wraper-seventh-second{
+    width: 50%;
+    height: 345px;
+    background-image: url("map.png");
+    position: relative;
+    margin-left: 850px;
+
+}
+.content-seventh{
+    width: 50%;
+    position: relative;
+    margin-top: -300px;
+}
+
+.content-seventh ul li{
+    display: block;
+    margin-left: -340px;
+}
+.content-seven-simbol{
+    margin-top: 210px;
+    padding: 30px;
+}
+.wraper-eighth{
+    background-color: #3070a8;
+    height: 104px;
+}
+.content-eight{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
 }
