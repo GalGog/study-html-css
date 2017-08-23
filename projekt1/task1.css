@@ -9,6 +9,9 @@ div.content{
     position: relative;
     margin: 0 auto;
 }
+.content{
+    width: 80%
+}
 div.menu{
     height: 120px;
 }
