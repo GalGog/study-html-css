@@ -1,0 +1,26 @@
+
+.content{
+    max-width: 1140px;
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.content{
+    width: 80%;
+}
+.content h1{
+    font-size: 41px;
+    text-align: center;
+    margin-top: 62px;
+}
+.content p{
+    font-size: 15px;
+    color: #909090;
+    text-align: center;
+}
+.block-foto{
+    margin-top: 80px ;  }
+
+.block-foto img{
+    padding: 0 15px 15px 0;
+}
