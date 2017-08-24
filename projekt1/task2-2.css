@@ -55,3 +55,40 @@ div.client-uno,.client-doi{
    vertical-align: middle;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1200px){
+
+    div.saze{
+        width: 80%; }
+
+    div h1{
+        margin-top: 5%;
+        font-size: 2em;
+        color: #3371a6;
+        text-transform: uppercase;
+        text-align: center;  }
+
+    div.client-uno,.client-doi{
+        overflow-y: scroll;
+        background-color: #f7f7f7;
+        height:100px ;
+        width: 20%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+
+
+    .foto-girl{
+        margin-bottom: 20px;
+        vertical-align: middle;
+    }
+    .foto-men{height: 106px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+    div.client-uno,.client-doi p{
+        font-size: 1%;
+    }
+
+}

@@ -277,6 +277,9 @@ div.wraper-seventh-second{
         margin-left: 3%;
 
     }
+    .round{
+        width: 150%;
+    }
     .bloc p{
         color: #999999;
         font-size:1em ;
@@ -307,4 +310,10 @@ div.wraper-seventh-second{
         display: block;
         margin-left: 40px;
     }
+}
+section.content.prises-list{
+    height: auto;
+}
+.ground.saaid{
+    height: auto;
 }
