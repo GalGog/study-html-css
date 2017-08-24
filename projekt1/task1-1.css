@@ -141,5 +141,11 @@ button.first-buy, .third-buy{
         margin-bottom: 30px;
         margin-top: 40px;  }
 
+    ul.advantages li, ul.first-advantages li, ul.third-advantages li{
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
 
 }
