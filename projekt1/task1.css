@@ -195,7 +195,6 @@ div.wraper-seventh-second{
     div.menu{
         height: 120px;
         width: 20%;
-        background-color: blue;
     }
     div.menu p{
         font-size: 16px;
@@ -242,39 +241,58 @@ div.wraper-seventh-second{
         height: 586px;
         position:absolute;
     }
-    .content{
-        width: 70%;
-    }
-    .comp{
-        margin-left: 10%;
-        width: 80%;
-        border: 3px solid green;
-        height: 586px;
-    }
+
     .copm-text{
         margin: 15% 0 0 15%;
         position: absolute;
         color: white;
         text-align: center;
-        font-size: 48px;
+        font-size: 3em;
     }
     .copm-text span p{
-        font-size: 12px;
+        font-size: 0.2em;
         color: white;
 
     }
     .button button{
-        height: 60px;
-        width: 240px;
+        height: 40px;
+        width: 140px;
         background-color:transparent ;
-        position: absolute;
-        margin-left: 380px;
-        margin-top: 460px;
+        margin-left: 30%;
         border: 1px solid white;
         color: white;
-
     }
 
+    .bloc-title{
+        font-size:2em;
+        color: #41525c;
+        text-align: center;
+        margin-top: 64px;
+        text-transform: uppercase;
+    ;
+    }
+    .bloc {
+        width:20% ;
+        height: 40px;
+        display:inline-block;
+        margin-left: 3%;
 
+
+    }
+    .bloc p{
+        width: 15%;
+        text-align: justify;
+        color: #999999;
+        font-size:1em ;
+        padding: 45%;
+
+    }
+    .bloc p span{
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    .bloc img{
+        padding-left: 33px;
+    }
 
 }
