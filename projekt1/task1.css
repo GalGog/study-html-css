@@ -9,9 +9,7 @@ div.content{
     position: relative;
     margin: 0 auto;
 }
-.content{
-    width: 80%
-}
+
 div.menu{
     height: 120px;
 }
@@ -185,4 +183,98 @@ div.wraper-seventh-second{
     text-align: center;
     color: white;
     margin-top: 30px;
+}
+
+
+@media screen and (max-width: 1200px)
+{
+.wraper .content{
+    width: 80%;
+}
+
+    div.menu{
+        height: 120px;
+        width: 20%;
+        background-color: blue;
+    }
+    div.menu p{
+        font-size: 16px;
+        color: orange;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    div p span{
+        color: #3070a8;
+    }
+    div ul{
+        display: inline;
+        margin-left: 31%;
+        margin-top: 12%;
+        width: 80%;
+    }
+    div ul li{
+        padding: 1%;
+    }
+    div ul li a{
+        font-size: 12%;
+        text-decoration: none;
+        color: #999999;
+        text-transform: uppercase;
+    }
+    div ul li a:hover{
+        color: #3070a8;  }
+
+
+
+
+    div.wraper-first {
+        width: 100%;
+        margin: 0 auto;
+        height:586px ;
+        background: url("bg-1.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    div.wraper-first:before{
+        width: 100%;
+        content: '';
+        background-color: rgba(0, 0, 0, .5);
+        height: 586px;
+        position:absolute;
+    }
+    .content{
+        width: 70%;
+    }
+    .comp{
+        margin-left: 10%;
+        width: 80%;
+        border: 3px solid green;
+        height: 586px;
+    }
+    .copm-text{
+        margin: 15% 0 0 15%;
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 48px;
+    }
+    .copm-text span p{
+        font-size: 12px;
+        color: white;
+
+    }
+    .button button{
+        height: 60px;
+        width: 240px;
+        background-color:transparent ;
+        position: absolute;
+        margin-left: 380px;
+        margin-top: 460px;
+        border: 1px solid white;
+        color: white;
+
+    }
+
+
+
 }
