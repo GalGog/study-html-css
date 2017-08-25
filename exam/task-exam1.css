@@ -11,9 +11,12 @@
     .content{
         width:98%;
     }
+    .menu ul a{
+        font-size: 0.1em;
+    }
 }
 .logo p{
-    font-size: 2em;
+    font-size: 2vw;
     line-height: 0.5em;
 
 }
@@ -27,5 +30,27 @@
     text-transform: uppercase;
 }
 .menu ul{
-    width: 70%;
+    width: 80%;
+    margin-left: 17.1vw;
+    margin-top: -2.9vw;
+}
+.menu ul a{
+    font-size: 2vm;
+    color:#666666;
+    text-decoration: none;
+}
+.spaidermen img{
+    margin: 3rem 0 0 8rem;
+    width: 32%;
+}
+.amaizing p{
+    position: absolute;
+    width: 80%;
+    font-size:2vw;
+    margin: -9.9rem 0 0 30rem;
+}
+
+.amaizing p span.iam {
+    font-size: 0.5em;
+    text-align: right;
 }
