@@ -29,6 +29,9 @@
     padding: 1rem;
     text-transform: uppercase;
 }
+.menu ul li::h{
+
+}
 .menu ul{
     width: 80%;
     margin-left: 17.1vw;
@@ -51,6 +54,10 @@
 }
 
 .amaizing p span.iam {
-    font-size: 0.8em;
+    font-size: 0.5em;
     text-align: right;
+}
+.menu ul li button{
+    background-color: #ffc049;
+    border: none;
 }
