@@ -23,6 +23,7 @@ p {
 }
 
 #navigation {
+    position: relative;
     float: left;
     width: 100%;
     background: #FFCC33;
@@ -189,4 +190,41 @@ p {
 }
 #menu-bar {
     display: inline-block;
+}
+/* spaider*/
+.sprite{
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.description{
+    width: 40%;
+}
+.description span{
+    font-size: 26px;
+    color: #515151;
+}
+.description p{
+    color: #666666;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: -15%;
+}
+.buton button{
+    margin-left: 72%;
+    margin-bottom: 5%;
+    background-color: orange;
+    height: 45px;
+    width: 15%;
+}
+/* content*/
+#contentline,#content p {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+}
+
+#content div span{
+    color: #222222;
+    font-size: 18px;
 }
